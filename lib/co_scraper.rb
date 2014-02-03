@@ -9,5 +9,5 @@
 #############################################||
 
 Dir['co_scraper/*'].map do |file|
-	require file
+  require file
 end

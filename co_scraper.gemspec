@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = CoScraper::VERSION
   spec.authors       = ['John Molina']
   spec.email         = ['john@pixelhipsters.com']
-  spec.description   = %q{Scrape data from clasificadosonline.com, organize into readable JSON and store in a database. }
-  spec.summary       = %q{Scrape data from clasificadosonline.com, organize into readable JSON and store in a database. }
+  spec.description   = 'Scrape data from clasificadosonline.com, organize into readable JSON and store in a database.'
+  spec.summary       = 'Scrape data from clasificadosonline.com, organize into readable JSON and store in a database.'
   spec.homepage      = 'https://github.com/Alaude/co_scraper'
   # spec.license       = 'MIT'
 
