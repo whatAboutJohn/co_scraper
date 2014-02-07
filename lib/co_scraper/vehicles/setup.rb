@@ -18,9 +18,11 @@ module CoScraper
 
   module Setup
 
-    def self.included(base)
-      base.extend self
-    end
+    # def self.included(base)
+    #   base.extend self
+    # end
+    
+    extend self
 
     def fetch_document(url)
       Nokogiri::HTML open url 
