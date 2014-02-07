@@ -6,8 +6,8 @@ $LOAD_PATH.unshift(lib) if File.directory?(lib) && !$LOAD_PATH.include?(lib)
 require 'co_scraper'
 require 'co_scraper/cli'
 
-args = ARGV.dup
-ARGV.clear
-command = args.shift.strip rescue 'help'
+# args = ARGV.dup
+# ARGV.clear
+# command = args.shift.strip rescue 'help'
 
-CoScraper::Command.run(command, args)
+# CoScraper::Command.run(command, args)
